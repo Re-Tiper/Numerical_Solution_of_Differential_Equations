@@ -27,6 +27,7 @@ end
 x=[xinit0 x]; y=[yinit0 y]; 
 end
 
+%Problem
 %f0=@(t,y) -y-5*exp(-t).*sin(5*t);
 %ysol0=@(t) cos(5*t).*exp(-t);
 %bp=[251/720 -1274/720 2616/720 -2774/720 1901/720]';
