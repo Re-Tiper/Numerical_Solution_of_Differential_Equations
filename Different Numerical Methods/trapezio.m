@@ -16,7 +16,6 @@ while xf-x0>1e-6
 end
 end
 
-
 %Problem
 %f= @(x,y) 5.*exp(5*x).*(y-x).^2 + 1;
 %f1= @(x) x - exp(-5*x);
