@@ -36,7 +36,7 @@ if h<hmin
     disp('The tolerance is not sufficient')
 end
 
-% Πρόβλημα
+% Problem
 %f1= @(t,y) [y(2 ) -y(1)]';
 %ysol1= @(t) cos(t);
 %c1= [0 1/2 1]';
@@ -52,10 +52,3 @@ end
 %TOL=1e-4
 %[t2 y2]= errorcontrol(f1, 0, [1;0], 600*pi(), c1, A1, b1, c2, A2, b2, TOL);
 %plot(t2,ysol1(t2),'c-',t2,y2,'b*-')
-
-%Εφαρμογή
-%c1 = [0 1/2 1]';
-%A1=[0 0 0;1/2 0 0;-1 2 0];
-%b1=[1/6 2/3 1/6]';
-%[x3,y3]= errorcontrol(f,0,-1,2,c1,A1,b1,c2,A2,b2,1e-2);
-%plot(x3,y3,'*',x3,f1(x3),'-')
